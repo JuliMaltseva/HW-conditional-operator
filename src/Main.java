@@ -42,7 +42,7 @@ public class Main {
             System.out.println("В вагоне есть свободные сидячие места. Вы можете занять одно из них.");
         }
         if (yourTicketNumber > seatingPlaces && yourTicketNumber <= wagonCapacity) {
-            System.out.println("Все сидячие места в вагоне заняты, но осталить свободные стоячие места. Вы можете занять одно из них");
+            System.out.println("Все сидячие места в вагоне заняты, но осталить свободные стоячие места. Вы можете занять одно из них.");
         }
         if (yourTicketNumber > wagonCapacity) {
             System.out.println("К сожалению, вагон полностью занят. Свободных мест нет!");
@@ -112,15 +112,15 @@ public class Main {
         boolean needToGoToWork = personsAge > 24;
         //System.out.println(needToGoToWork);
         if (needToGoToKindergarten) {
-            System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в детский сад");
+            System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в детский сад.");
         } else {
             if (needToGoToSchool) {
-                System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в школу");
+                System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в школу.");
             } else {
                 if (needToGoToUniversity) {
-                    System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в университет");
+                    System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить в университет.");
                 } else {
-                    System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить на работу");
+                    System.out.println("Если возраст человека равен " + personsAge + ", то ему нужно ходить на работу.");
                 }
             }
         }
