@@ -137,10 +137,10 @@ public class Main {
         boolean canRideTheAttractionAlone = childAge >= 14;
         boolean canRideTheAttractionWithAnAccompany = childAge >= 5 && childAge < 14;
         if (canRideTheAttractionAlone) {
-            System.out.println("Ты можешь кататься на аттракционе без сопровождения взрослого");
+            System.out.println("Ты можешь кататься на аттракционе без сопровождения взрослого!");
         } else {
             if (canRideTheAttractionWithAnAccompany) {
-                System.out.println("Ты можешь кататься на аттракционе, но только в сопровождении взрослого");
+                System.out.println("Ты можешь кататься на аттракционе, но только в сопровождении взрослого!");
             } else {
                 System.out.println("Ты не можешь кататься на аттракционе!");
             }
